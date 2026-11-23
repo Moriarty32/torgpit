@@ -1,0 +1,9 @@
+{
+  "prompt": "Use case: photorealistic-natural. Asset: premium commercial kitchen equipment website editorial photograph, high-resolution landscape 1600x1000 pixels. Professional restaurant open kitchen, beautiful brushed stainless steel preparation islands, commercial combi oven and extraction hood, dark green-black accents, warm brass pendant task lighting, fresh basil. View into a realistic high-end working kitchen, no diners, no people, calm architecture, daylight and warm highlights. Composition leaves breathing room around important equipment, all machines geometrically plausible and real. Natural 35mm architectural photography, exquisite soft dynamic lighting, steel silver, charcoal green-black and restrained warm amber palette. Expensive but credible commercial architectural photography, detailed material surfaces, no glossy 3D render. NO text, NO logos, NO watermark, NO collage, one uninterrupted photographic scene.",
+  "origin": "source-images/venue-restaurant.png",
+  "generator": "built-in image_gen",
+  "illustrative": true,
+  "width": 640,
+  "height": 400,
+  "bytes": 57432
+}

@@ -1,0 +1,9 @@
+{
+  "prompt": "Use case: photorealistic-natural. Asset: premium commercial kitchen equipment website editorial photograph, high-resolution landscape 1600x1000 pixels. Close architectural editorial photograph looking down at a stainless steel worktable. A precise professional kitchen floor-plan printed on large white sheets, a charcoal tablet showing a realistic 3D isometric arrangement of stainless kitchen equipment without any UI text, a metal ruler and pencil, gentle side daylight, softly out-of-focus stainless kitchen in background. Plausible functional schematic without readable labels, no people. Composition leaves breathing room around important equipment, all machines geometrically plausible and real. Natural 35mm architectural photography, exquisite soft dynamic lighting, steel silver, charcoal green-black and restrained warm amber palette. Expensive but credible commercial architectural photography, detailed material surfaces, no glossy 3D render. NO text, NO logos, NO watermark, NO collage, one uninterrupted photographic scene.",
+  "origin": "source-images/planning-kitchen.png",
+  "generator": "built-in image_gen",
+  "illustrative": true,
+  "width": 640,
+  "height": 400,
+  "bytes": 51106
+}
