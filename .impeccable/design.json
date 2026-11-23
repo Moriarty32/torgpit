@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-23T09:35:47.510794+00:00",
+  "title": "Design System: ТоргПит v7",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Тёплая бумага"
+      },
+      "orange": {
+        "role": "primary",
+        "displayName": "Обожжённый оранжевый"
+      },
+      "dark": {
+        "role": "neutral",
+        "displayName": "Зелёный графит"
+      },
+      "sage": {
+        "role": "neutral",
+        "displayName": "Светлый шалфей"
+      },
+      "stone": {
+        "role": "neutral",
+        "displayName": "Каменный оттенок"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Основной заголовок",
+        "purpose": "Только первый экран; размер учитывает ширину и высоту окна"
+      },
+      "body": {
+        "displayName": "Текст",
+        "purpose": "Читаемые описания и инструкции с ограниченной длиной строки"
+      },
+      "label": {
+        "displayName": "Рабочие подписи",
+        "purpose": "Подписи полей, параметры и пояснения формы; компактная метаинформация использует локальные исключения"
+      },
+      "support": {
+        "displayName": "Вспомогательный заголовок",
+        "purpose": "Параметры выбора, нейтральное оборудование, условия и FAQ; вес 700 и меньший размер сохраняют иерархию"
+      }
+    },
+    "shadows": [
+      {
+        "name": "dialog",
+        "value": "0 24px 100px #0003",
+        "purpose": "Диалог выбора"
+      },
+      {
+        "name": "search",
+        "value": "0 24px 48px -20px #172b2b40",
+        "purpose": "Отдельная панель поиска и широкие панели навигации; затемнение страницы #14282826"
+      },
+      {
+        "name": "navigation-drawer",
+        "value": "-16px 0 48px #172b2b20",
+        "purpose": "Правая мобильная панель; затемнение на весь экран #14282859"
+      }
+    ],
+    "motion": [
+      {
+        "name": "arrival",
+        "value": "cubic-bezier(.22,1,.36,1)",
+        "purpose": "Спокойное завершение движения"
+      },
+      {
+        "name": "button-fill",
+        "value": "360ms",
+        "purpose": "Заливка кнопки"
+      },
+      {
+        "name": "hero",
+        "value": "700ms",
+        "purpose": "Одно вступление заголовка"
+      },
+      {
+        "name": "navigation-enter",
+        "value": "240ms",
+        "purpose": "Вход широких панелей и поиска с существующим easing arrival"
+      },
+      {
+        "name": "navigation-leave",
+        "value": "160ms",
+        "purpose": "Выход панелей, поиска и мобильного меню с easing arrival"
+      },
+      {
+        "name": "drawer-enter",
+        "value": "280ms",
+        "purpose": "Вход мобильного меню с easing arrival"
+      },
+      {
+        "name": "accordion-enter",
+        "value": "180ms",
+        "purpose": "Раскрытие мобильного раздела с easing arrival"
+      },
+      {
+        "name": "navigation-hover",
+        "value": "300ms",
+        "purpose": "Задержка открытия при наведении точного указателя на широком экране"
+      },
+      {
+        "name": "navigation-dismiss",
+        "value": "200ms",
+        "purpose": "Задержка закрытия незакреплённой панели после ухода из строки шапки и её панели; backdrop исключён, фокус на активном переключателе или внутри панели защищает её"
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "navigation-max-1199",
+        "value": "1199px"
+      },
+      {
+        "name": "max-1150",
+        "value": "1150px"
+      },
+      {
+        "name": "max-900",
+        "value": "900px"
+      },
+      {
+        "name": "max-700",
+        "value": "700px"
+      },
+      {
+        "name": "max-500",
+        "value": "500px"
+      },
+      {
+        "name": "max-370",
+        "value": "370px"
+      },
+      {
+        "name": "short-window-max-height-800",
+        "value": "800px"
+      },
+      {
+        "name": "phone-max-height-780",
+        "value": "780px"
+      }
+    ],
+    "imagery": {
+      "hero": {
+        "sourceDimensions": [
+          1672,
+          941
+        ],
+        "renderedWidths": [
+          640,
+          1024,
+          1600
+        ],
+        "prompt": "source-images/hero-kitchen-v5.prompt.txt",
+        "status": "Сгенерированная иллюстрация, не доказательство выполненного проекта"
+      }
+    }
+  },
+  "components": [
+    {
+      "name": "Primary button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Главное действие",
+      "html": "<button class=\"ds-primary\">Начать подбор</button>",
+      "css": ".ds-primary{font:700 15px Manrope,Arial,sans-serif;background:var(--orange);color:white;border:1px solid transparent;border-radius:6px;padding:14px 24px;min-height:50px;cursor:pointer;transition:background 180ms}.ds-primary:hover{background:var(--orange-dark)}.ds-primary:focus-visible{outline:2px solid var(--orange);outline-offset:4px}.ds-primary:active{transform:scale(.985)}"
+    },
+    {
+      "name": "Secondary button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Дополнительное действие",
+      "html": "<button class=\"ds-secondary\">Добавить в подборку</button>",
+      "css": ".ds-secondary{font:700 14px Manrope,Arial,sans-serif;color:var(--ink);background:transparent;border:1px solid #babcb5;border-radius:6px;padding:14px 24px;min-height:50px;cursor:pointer}.ds-secondary:hover{background:#eae7e0;border-color:var(--ink)}.ds-secondary:focus-visible{outline:2px solid var(--orange);outline-offset:4px}.ds-secondary:active{transform:scale(.985)}"
+    },
+    {
+      "name": "Outline button",
+      "kind": "button",
+      "description": "На тёмном фоне",
+      "html": "<button class=\"ds-outline\">Посмотреть категории</button>",
+      "css": ".ds-outline{font:700 15px Manrope,Arial,sans-serif;color:white;background:var(--dark);border:1px solid #c7d1cb;border-radius:6px;padding:14px 24px;min-height:50px}.ds-outline:hover,.ds-outline:focus-visible{color:var(--dark);background:white}.ds-outline:focus-visible{outline:2px solid var(--orange);outline-offset:4px}"
+    },
+    {
+      "name": "Request field",
+      "kind": "input",
+      "description": "Поле 16px, подпись от 14px; Email / Телефон задаются радиокнопками, ошибка связана с полем и отображается рядом. Подготовка запроса скрывает нижнюю подборку; изменения возвращают её.",
+      "html": "<label class=\"ds-label\">Ваше имя<input class=\"ds-field\" placeholder=\"Как к вам обращаться\"></label>",
+      "css": ".ds-label{font:600 14px Manrope,Arial,sans-serif;color:var(--ink)}.ds-field{display:block;margin-top:7px;font:400 16px Manrope,Arial,sans-serif;width:100%;box-sizing:border-box;padding:12px;border:1px solid #c5c7bd;border-radius:5px;background:#fcfbf8;caret-color:var(--orange)}.ds-field:focus-visible{outline:2px solid var(--orange);outline-offset:2px}"
+    },
+    {
+      "name": "Category card",
+      "kind": "card",
+      "description": "Текстовая часть категории: h4 под заголовком группы h3, назначение и ручной перенос длинного слова. Девять категорий собраны в три группы, как в мега-меню; отдельная фотография справа на широком экране и телефоне, снизу при 701–1199px. Все девять категорий открывают диалог с назначением, иллюстрацией и четырьмя вопросами. Отдельная кнопка явно добавляет или удаляет направление; открытие не меняет подборку.",
+      "html": "<a class=\"ds-category\" href=\"#\"><div class=\"ds-category-heading\"><h4>Тепловое оборудование</h4><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></div><p>Печи, плиты и жарочные поверхности</p></a>",
+      "css": ".ds-category{display:block;padding:20px;border:1px solid var(--line);border-radius:12px;color:var(--ink);text-decoration:none;background:var(--surface);font:400 14px/1.5 Manrope,Arial,sans-serif;transition:border-color 240ms,background 240ms,box-shadow 300ms var(--ease)}.ds-category-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:14px}.ds-category h4{margin:0;font-size:20px;font-weight:800;line-height:1.2;letter-spacing:-.035em;hyphens:manual}.ds-category svg{width:16px;height:16px;margin-top:4px;flex-shrink:0;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;transition:transform 280ms var(--ease)}.ds-category p{margin:8px 0 0;color:var(--muted)}.ds-category:hover{border-color:#b8402380;background:var(--surface);box-shadow:0 10px 28px #282d2408}.ds-category:hover svg{transform:translateX(5px)}.ds-category:focus-visible{outline:2px solid var(--orange);outline-offset:5px}@media(max-width:1199px){.ds-category h4{font-size:19px}}@media(max-width:370px){.ds-category h4{font-size:17px}}@media(prefers-reduced-motion:reduce){.ds-category,.ds-category svg{transition:none}.ds-category:hover svg{transform:none}}"
+    },
+    {
+      "name": "Header navigation",
+      "kind": "nav",
+      "description": "Четыре пункта; при ширине от 1200px — одна широкая панель по общему контейнеру до 1480px, до 1199px — аккордеоны в правом меню до 480px с отдельной прокруткой и постоянной нижней областью CTA/email. Щелчок закрепляет панель от ухода указателя; поиск и меню взаимоисключаются. Escape или нажатие на затемняющий фон закрывают слой с возвратом фокуса. Мобильное меню блокирует фон и удерживает фокус; смена режима очищает состояния. Диалог из «Покупателям» возвращает фокус к этому пункту или кнопке мобильного меню. Без JavaScript остаются пять якорных ссылок. При reduced motion анимации и переходы навигации отключены.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Основная навигация\"><button type=\"button\" aria-expanded=\"false\">Оборудование<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m6 9 6 6 6-6\"/></svg></button><button type=\"button\" aria-expanded=\"false\">По формату<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m6 9 6 6 6-6\"/></svg></button><a href=\"#planning\">Проектирование</a><button type=\"button\" aria-expanded=\"false\">Покупателям<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m6 9 6 6 6-6\"/></svg></button></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;gap:23px;font:600 14px Manrope,Arial,sans-serif}.ds-nav button,.ds-nav a{position:relative;display:flex;align-items:center;gap:6px;min-height:84px;padding:0;border:0;background:transparent;color:var(--ink);font:inherit;text-decoration:none;white-space:nowrap;cursor:pointer;transition:color 180ms}.ds-nav svg{width:13px;height:13px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;transition:transform 180ms var(--ease)}.ds-nav button:after,.ds-nav a:after{content:\"\";position:absolute;bottom:20px;left:0;right:19px;height:1px;background:var(--orange);transform:scaleX(0);transform-origin:left;transition:transform 180ms var(--ease)}.ds-nav a:after{right:0}.ds-nav button:hover,.ds-nav a:hover,.ds-nav button[aria-expanded=\"true\"]{color:var(--orange)}.ds-nav button:hover:after,.ds-nav a:hover:after,.ds-nav button:focus-visible:after,.ds-nav a:focus-visible:after,.ds-nav button[aria-expanded=\"true\"]:after{transform:scaleX(1)}.ds-nav button[aria-expanded=\"true\"] svg{transform:rotate(180deg)}.ds-nav button:focus-visible,.ds-nav a:focus-visible{outline:2px solid var(--orange);outline-offset:4px}@media(max-width:1199px){.ds-nav{display:block}.ds-nav button,.ds-nav a{justify-content:space-between;width:100%;min-height:64px;border-bottom:1px solid var(--line);font-size:19px;font-weight:650}.ds-nav button:after,.ds-nav a:after{display:none}.ds-nav svg{width:18px;height:18px}}@media(prefers-reduced-motion:reduce){.ds-nav button,.ds-nav a,.ds-nav svg,.ds-nav button:after,.ds-nav a:after{transition:none}}"
+    },
+    {
+      "name": "Selection equipment dossier",
+      "kind": "custom",
+      "description": "Текстовый фрагмент предметного досье: вопрос, семантический список параметров, подробности и добавление в общую подборку с aria-pressed. На странице три колонки с существующими cutout-изображениями и тонкими разделителями; до 900px — строки, до 700px — последовательные элементы с названием на полной ширине, до 370px действия складываются.",
+      "html": "<article class=\"ds-guide\"><h3>Пароконвектоматы</h3><p>Что готовите и какая загрузка в пиковый час?</p><ul aria-label=\"Параметры выбора\"><li>Уровни GN</li><li>Мощность</li><li>Вода</li></ul><div class=\"ds-guide-actions\"><button type=\"button\">Что учесть при выборе</button><button type=\"button\" aria-pressed=\"false\">Добавить в подборку</button></div></article>",
+      "css": ".ds-guide{padding:32px 28px;border-block:1px solid var(--line);font:400 15px/1.6 Manrope,Arial,sans-serif;color:var(--ink);background:transparent}.ds-guide h3{font-size:23px;line-height:1.2;margin:0 0 18px;font-weight:800}.ds-guide p{margin:0;color:var(--muted)}.ds-guide ul{display:flex;flex-wrap:wrap;gap:8px 16px;list-style:none;padding:0;margin:22px 0 18px;font-size:14px}.ds-guide li{padding-block:4px;border-bottom:1px solid #aab6aa80}.ds-guide-actions{display:flex;flex-direction:column;gap:10px}.ds-guide button{font:600 14px Manrope,Arial,sans-serif;min-height:46px;border:1px solid #babcb5;background:transparent;border-radius:6px;padding:11px 14px;color:var(--ink);cursor:pointer}.ds-guide button:first-child{border:0;color:var(--orange);text-align:left;min-height:44px;padding-inline:0}.ds-guide button:hover{background:var(--paper)}.ds-guide button:focus-visible{outline:2px solid var(--orange);outline-offset:4px}.ds-guide button:active{transform:scale(.985)}@media(max-width:700px){.ds-guide{padding:24px 0}.ds-guide h3{font-size:22px}.ds-guide-actions{flex-direction:row;gap:14px;align-items:center}.ds-guide-actions button{flex:1}}@media(max-width:370px){.ds-guide h3{font-size:20px}.ds-guide-actions{flex-direction:column;align-items:stretch;gap:4px}}"
+    },
+    {
+      "name": "Interactive kitchen teaching board",
+      "kind": "custom",
+      "description": "Бумажная панель рабочих зон: только SVG-чертёж слева тёмный, пояснение и метаданные справа светлые; до 700px элементы последовательны. Четыре кнопки переключают подсветку и aria-live-пояснение; выбранная кнопка тёмная, aria-pressed=true. Результаты и три этапа находятся в отдельной бумажной полосе .planning-process. Сниппет показывает начальное состояние; обработчики находятся в app.js.",
+      "html": "<figure class=\"ds-specimen\"><div class=\"ds-specimen-heading\"><span>Рабочие зоны кухни</span><span>Учебная схема</span></div>\n              <div class=\"ds-zone-drawing\" data-active-zone=\"prep\">\n                <svg class=\"ds-kitchen-plan\" viewBox=\"0 0 680 360\" role=\"img\" aria-labelledby=\"ds-plan-title ds-plan-desc\">\n                  <title id=\"ds-plan-title\">Взаимосвязь четырёх рабочих зон кухни</title><desc id=\"ds-plan-desc\">Условная схема: поверхности подготовки, тепловая линия, холодильное хранение и мойка. Выберите зону кнопками под схемой, чтобы прочитать пояснение.</desc>\n                  <defs><pattern id=\"ds-plan-grid\" width=\"24\" height=\"24\" patternUnits=\"userSpaceOnUse\"><path d=\"M24 0H0V24\" fill=\"none\" stroke=\"#b8cbc0\" stroke-opacity=\".07\"/></pattern></defs>\n                  <rect width=\"680\" height=\"360\" fill=\"url(#ds-plan-grid)\"/>\n                  <g class=\"ds-plan-shell\" fill=\"none\" stroke=\"#94afa1\" stroke-width=\"1.4\"><path d=\"M56 56H624V304H434m-86 0H56V56\"/><path d=\"M348 304v-72a72 72 0 0 1 72 72\" stroke-dasharray=\"4 6\" opacity=\".45\"/><path d=\"M56 48h568M48 56v248\" opacity=\".25\"/><path d=\"M210 56v248M464 56v248\" stroke-dasharray=\"3 8\" opacity=\".18\"/></g>\n                  <g class=\"ds-plan-equipment ds-plan-prep\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><rect x=\"76\" y=\"78\" width=\"112\" height=\"82\" rx=\"3\"/><path d=\"M84 86h96v66H84z\"/><rect x=\"94\" y=\"96\" width=\"56\" height=\"42\" rx=\"5\"/><circle cx=\"110\" cy=\"116\" r=\"7\"/><circle cx=\"130\" cy=\"119\" r=\"6\"/><path d=\"M163 96v31h9c0-14-2-24-9-31ZM163 127v15m5-15v15M94 145h56\"/><text x=\"76\" y=\"196\">Подготовка</text></g>\n                  <g class=\"ds-plan-equipment ds-plan-cook\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><rect x=\"238\" y=\"78\" width=\"202\" height=\"82\" rx=\"3\"/><path d=\"M246 86h118v66H246zM376 86h56v66h-56zM384 96h40v40h-40z\"/><circle cx=\"268\" cy=\"105\" r=\"10\"/><circle cx=\"268\" cy=\"133\" r=\"10\"/><circle cx=\"306\" cy=\"105\" r=\"10\"/><circle cx=\"306\" cy=\"133\" r=\"10\"/><path d=\"M334 94v48m7-48v48m7-48v48\"/><text x=\"238\" y=\"196\">Приготовление</text></g>\n                  <g class=\"ds-plan-equipment ds-plan-wash\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><rect x=\"490\" y=\"78\" width=\"112\" height=\"82\" rx=\"3\"/><rect x=\"499\" y=\"90\" width=\"40\" height=\"50\" rx=\"7\"/><rect x=\"550\" y=\"90\" width=\"40\" height=\"50\" rx=\"7\"/><circle cx=\"519\" cy=\"116\" r=\"4\"/><circle cx=\"570\" cy=\"116\" r=\"4\"/><path d=\"M540 81h10m-5-4v28\"/><text x=\"490\" y=\"196\">Мойка</text></g>\n                  <g class=\"ds-plan-equipment ds-plan-store\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><rect x=\"76\" y=\"224\" width=\"112\" height=\"60\" rx=\"3\"/><path d=\"M132 224v60m-8-42v22m16-22v22M84 232h40v44H84m56-44h40v44h-40\"/><text x=\"238\" y=\"263\">Хранение</text><path d=\"M218 254h-20\" opacity=\".5\"/></g>\n                  <path class=\"ds-plan-route\" d=\"M190 117h38m220 0h32\" fill=\"none\" stroke=\"#d27a55\" stroke-width=\"1.5\" stroke-dasharray=\"3 5\"/>\n                </svg>\n              </div>\n              <div class=\"ds-zone-controls\" role=\"group\" aria-label=\"Посмотреть рабочую зону\">\n                <button type=\"button\" data-zone=\"prep\" aria-pressed=\"true\">Подготовка</button><button type=\"button\" data-zone=\"cook\" aria-pressed=\"false\">Приготовление</button><button type=\"button\" data-zone=\"store\" aria-pressed=\"false\">Хранение</button><button type=\"button\" data-zone=\"wash\" aria-pressed=\"false\">Мойка</button>\n              </div>\n              <div class=\"ds-zone-explanation\" aria-live=\"polite\"><strong id=\"ds-zone-name\">Подготовка продуктов</strong><p id=\"ds-zone-description\">Рабочие поверхности и механическое оборудование. Уточняют операции, объём заготовок и место для работы.</p></div>\n              <dl class=\"ds-specimen-data\"><div><dt>Основа</dt><dd>Меню, загрузка и план помещения</dd></div><div><dt>Результат</dt><dd>Состав техники и параметры для согласования</dd></div></dl>\n              <figcaption>Учебная схема взаимосвязей. Не выполненный проект и не рабочий инженерный план.</figcaption></figure>",
+      "css": ".ds-specimen{margin:0;background:#203333;color:#d1dfd4;padding:28px;border:1px solid #a6baac38;border-radius:12px;box-shadow:0 22px 55px -35px #061313aa;font:400 14px/1.6 Manrope,Arial,sans-serif}.ds-specimen-heading{display:flex;justify-content:space-between;align-items:center;gap:16px;border-bottom:1px solid #a6baac38;padding-bottom:18px}.ds-specimen-heading span:first-child{font-size:16px;font-weight:600;color:#f0f2ea}.ds-specimen-heading span:last-child{font-size:12px;color:#bbcdc0}.ds-kitchen-plan{display:block;width:100%;height:auto;margin:12px 0}.ds-plan-equipment{color:#8aa79a;transition:color 240ms}.ds-plan-equipment text{font-family:Manrope,Arial,sans-serif;font-size:17px;fill:currentColor;stroke:none;font-weight:500}[data-active-zone=prep] .ds-plan-prep,[data-active-zone=cook] .ds-plan-cook,[data-active-zone=store] .ds-plan-store,[data-active-zone=wash] .ds-plan-wash{color:#f3c2a8}.ds-zone-controls{display:flex;flex-wrap:wrap;gap:4px;border-bottom:1px solid #a6baac38;padding-bottom:16px}.ds-zone-controls button{font:400 14px Manrope,Arial,sans-serif;border:0;cursor:pointer;min-height:44px;flex:1;padding:8px 12px;border-radius:4px;color:#c6d5ca;background:transparent;transition:background 180ms,color 180ms}.ds-zone-controls button:hover{background:#a6baac14;color:#fff}.ds-zone-controls button[aria-pressed=true]{background:#d9e2d9;color:#1b2a2b}.ds-zone-controls button:focus-visible{outline:2px solid #f3c2a8;outline-offset:2px}.ds-zone-explanation{padding-block:20px;min-height:118px}.ds-zone-explanation strong{font-size:18px;color:#f0f2ea;font-weight:600}.ds-zone-explanation p{font-size:15px;line-height:1.65;margin:6px 0 0;color:#c6d5ca;max-width:65ch}.ds-specimen-data{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:0}.ds-specimen-data>div{border-top:1px solid #a6baac38;padding-top:16px}.ds-specimen-data dt{font-size:12px;color:#bbcdc0;margin-bottom:6px}.ds-specimen-data dd{margin:0;font-size:14px;color:#f0f2ea;font-weight:500;line-height:1.6}.ds-specimen figcaption{color:#bbcdc0;font-size:12px;line-height:1.6;margin-top:18px}@media(max-width:700px){.ds-specimen{padding:20px 16px}.ds-plan-equipment text{display:none}.ds-zone-controls{display:grid;grid-template-columns:1fr 1fr;gap:6px}.ds-specimen-heading span:first-child{font-size:14px}.ds-zone-explanation{min-height:150px}}@media(max-width:370px){.ds-specimen-data{grid-template-columns:1fr;gap:4px}.ds-zone-explanation{min-height:180px}}@media(prefers-reduced-motion:reduce){.ds-plan-equipment,.ds-zone-controls button{transition:none}}.ds-specimen {display:grid;grid-template-columns:1.15fr 1fr;column-gap:36px;row-gap:0;padding:24px 28px;border-radius:10px;box-shadow:none;}.ds-specimen-heading {grid-column:1 / -1;grid-row:1;padding-bottom:16px;}.ds-zone-drawing {grid-column:1;grid-row:2 / 4;align-self:center;min-width:0;}.ds-kitchen-plan {margin:0;}.ds-zone-controls {grid-column:1;grid-row:4;align-self:start;border-bottom:0;padding-bottom:0;}.ds-zone-explanation {grid-column:2;grid-row:2;padding:24px 0 16px;min-height:142px;}.ds-zone-explanation p {max-width:50ch;}.ds-specimen-data {grid-column:2;grid-row:3 / 5;align-self:start;gap:20px;margin:0;}.ds-specimen figcaption {grid-column:1 / -1;grid-row:5;margin-top:20px;padding-top:14px;border-top:1px solid #a6baac38;}.ds-specimen {background:var(--paper);color:var(--ink);border-color:var(--line);}.ds-specimen-heading {border-color:var(--line);}.ds-specimen-heading span:first-child {color:var(--ink);}.ds-specimen-heading span:last-child {color:var(--muted);}.ds-zone-drawing {background:#203333;border-radius:6px;margin-block:20px 12px;overflow:hidden;align-self:start;}.ds-kitchen-plan {max-height:300px;}.ds-zone-controls button {color:var(--muted);}.ds-zone-controls button:hover {background:#e5e9e1;color:var(--ink);}.ds-zone-controls button[aria-pressed=true] {background:var(--dark);color:white;}.ds-zone-controls button:focus-visible {outline-color:var(--orange);}.ds-zone-explanation strong {color:var(--ink);}.ds-zone-explanation p {color:var(--muted);}.ds-specimen-data>div {border-color:var(--line);}.ds-specimen-data dt {color:var(--muted);}.ds-specimen-data dd {color:var(--ink);}.ds-specimen figcaption {color:var(--muted);border-color:var(--line);}@media(max-width:1000px){.ds-specimen{column-gap:24px;padding:24px}.ds-zone-controls{display:grid;grid-template-columns:1fr 1fr;gap:6px}.ds-zone-explanation{min-height:0}.ds-specimen-data{grid-template-columns:1fr;gap:0}.ds-specimen-data>div{padding-block:12px}}@media(max-width:700px){.ds-specimen{display:flex;flex-direction:column;padding:18px 16px}.ds-zone-drawing{align-self:stretch;margin-block:16px 12px}.ds-zone-controls{padding-bottom:16px;border-bottom:1px solid var(--line)}.ds-zone-explanation{padding-block:18px;min-height:0}.ds-specimen-data{display:grid;grid-template-columns:1fr 1fr;gap:16px}.ds-specimen-data>div{padding-block:12px 0}.ds-specimen figcaption{margin-top:16px;padding-top:12px}}@media(max-width:370px){.ds-specimen-data{grid-template-columns:1fr;gap:0}.ds-zone-explanation{min-height:0}}",
+      "refersTo": "planning-board"
+    }
+  ],
+  "narrative": {
+    "northStar": "Продуманная профессиональная кухня",
+    "overview": "Уточнение исходной визуальной системы по запросу пользователя: сохранить узнаваемую палитру и профессиональный предмет, повысить качество изображений, читаемость и полезность сценариев. Основной выразительный материал — настоящая по характеру фотография стали и архитектуры кухни. Изображения сгенерированы и обозначены как иллюстрации; они не доказывают существование моделей, объектов или партнёрств.\n\nВ уточнении v7 проработка оснащения разделена на белое вступление, светлую панель рабочих зон, отдельную бумажную полосу результатов и этапов и компактное белое продолжение о рабочих поверхностях. Тёмным остаётся только поле SVG-чертежа; пояснения и метаданные лежат на бумаге. Справочник параметров сохраняет три существующих предметных изображения, вопросы выбора и списки параметров. Композиция первого экрана v5 учитывает ширину и высоту окна; палитра и существующие сценарии сохранены. Измерения и 20 пройденных браузерных утверждений — в docs/layout-v7.md.",
+    "keyCharacteristics": [
+      "Отдельные предметные изображения.",
+      "Тёплая бумага, сталь и зелёный графит.",
+      "Подборка и бриф вместо ложного сравнения.",
+      "Полноширинные фоновые разделы с общим внутренним контейнером."
+    ],
+    "rules": [],
+    "dos": [
+      "Сохранять профессиональную предметность, палитру и спокойное движение.",
+      "Объяснять реальные параметры выбора, а не подменять их декоративными цифрами.",
+      "Сохранять текст посетителя и явно показывать результат действия.",
+      "Сохранять общий контейнер внутри полноширинных фоновых разделов и читаемую длину строки.",
+      "Давать содержимому увеличивать высоту первого экрана в очень низких окнах."
+    ],
+    "donts": [
+      "Не возвращать области скриншота как фотографии.",
+      "Не добавлять вымышленные цены, наличие, клиентов, гарантии или партнёрства.",
+      "Не сообщать «заявка отправлена», пока сервер и маршрут обработки не подключены."
+    ]
+  }
+}

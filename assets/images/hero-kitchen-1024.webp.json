@@ -1,0 +1,9 @@
+{
+  "prompt": "Use case: photorealistic-natural. Asset: premium commercial kitchen website hero background, landscape 2560x1440 pixels, high resolution. An immaculate architect-designed professional restaurant kitchen in brushed stainless steel, large industrial ventilation hood, beautiful commercial combi oven with glass door and warm golden trays ON THE RIGHT, a stainless prep island with a small basil plant and a few tomatoes at right foreground. Daylight from large windows mixed with warm pendant task lighting, realistic steel reflections, 35mm architectural photography, exceptionally sharp details. LEFT THIRD is a naturally dim uncluttered dark green-black kitchen wall and work area, calm negative space for white HTML headline. Counter heights and equipment geometry realistic. Restrained expensive editorial photography, subtle film texture, NOT glossy CGI. Entire composition one continuous scene. No humans, no branding, no text, no lettering, no watermarks. Do not make a webpage or collage. Landscape 16:9.",
+  "origin": "source-images/hero-kitchen.png",
+  "generator": "built-in image_gen",
+  "illustrative": true,
+  "width": 1024,
+  "height": 576,
+  "bytes": 96156
+}

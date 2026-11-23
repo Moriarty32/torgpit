@@ -1,0 +1,9 @@
+{
+  "prompt": "Use case: product-mockup. Asset: standalone premium industrial product catalog photograph. Square 1024x1024. A carefully composed set of THREE stainless steel rectangular gastronorm pans in different standard sizes, one large pan behind two smaller pans, visible rounded rims and realistic brushed steel interiors. Complete product fully visible, centered occupying 78 percent of frame with generous white margin, three-quarter front view facing slightly left, eye-level camera. Consistent luxury studio lighting with a large softbox, restrained warm reflections on finely brushed steel, physically plausible construction and sharp real material details. Seamless PURE WHITE #ffffff background, only soft compact grey contact shadow. Premium manufacturer catalog photography, NOT a drawing. No branding, no logos, no writing, no other objects except those described. No collage.",
+  "origin": "source-images/product-pans.png",
+  "generator": "built-in image_gen",
+  "illustrative": true,
+  "width": 800,
+  "height": 800,
+  "bytes": 31486
+}

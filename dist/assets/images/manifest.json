@@ -1,0 +1,200 @@
+[
+  {
+    "file": "hero-kitchen-640.webp",
+    "width": 640,
+    "height": 360,
+    "bytes": 45330
+  },
+  {
+    "file": "hero-kitchen-1024.webp",
+    "width": 1024,
+    "height": 576,
+    "bytes": 96156
+  },
+  {
+    "file": "hero-kitchen-1600.webp",
+    "width": 1600,
+    "height": 900,
+    "bytes": 190622
+  },
+  {
+    "file": "product-oven-400.webp",
+    "width": 400,
+    "height": 400,
+    "bytes": 16972
+  },
+  {
+    "file": "product-oven-800.webp",
+    "width": 800,
+    "height": 800,
+    "bytes": 53140
+  },
+  {
+    "file": "product-fridge-400.webp",
+    "width": 400,
+    "height": 400,
+    "bytes": 5170
+  },
+  {
+    "file": "product-fridge-800.webp",
+    "width": 800,
+    "height": 800,
+    "bytes": 17446
+  },
+  {
+    "file": "product-mixer-400.webp",
+    "width": 400,
+    "height": 400,
+    "bytes": 16040
+  },
+  {
+    "file": "product-mixer-800.webp",
+    "width": 800,
+    "height": 800,
+    "bytes": 47710
+  },
+  {
+    "file": "product-grinder-400.webp",
+    "width": 400,
+    "height": 400,
+    "bytes": 15602
+  },
+  {
+    "file": "product-grinder-800.webp",
+    "width": 800,
+    "height": 800,
+    "bytes": 47844
+  },
+  {
+    "file": "product-dough-400.webp",
+    "width": 400,
+    "height": 400,
+    "bytes": 16206
+  },
+  {
+    "file": "product-dough-800.webp",
+    "width": 800,
+    "height": 800,
+    "bytes": 46772
+  },
+  {
+    "file": "product-coffee-400.webp",
+    "width": 400,
+    "height": 400,
+    "bytes": 19860
+  },
+  {
+    "file": "product-coffee-800.webp",
+    "width": 800,
+    "height": 800,
+    "bytes": 60208
+  },
+  {
+    "file": "product-dishwasher-400.webp",
+    "width": 400,
+    "height": 400,
+    "bytes": 8586
+  },
+  {
+    "file": "product-dishwasher-800.webp",
+    "width": 800,
+    "height": 800,
+    "bytes": 26896
+  },
+  {
+    "file": "product-steel-400.webp",
+    "width": 400,
+    "height": 400,
+    "bytes": 10752
+  },
+  {
+    "file": "product-steel-800.webp",
+    "width": 800,
+    "height": 800,
+    "bytes": 31168
+  },
+  {
+    "file": "product-display-400.webp",
+    "width": 400,
+    "height": 400,
+    "bytes": 23834
+  },
+  {
+    "file": "product-display-800.webp",
+    "width": 800,
+    "height": 800,
+    "bytes": 76036
+  },
+  {
+    "file": "product-pans-400.webp",
+    "width": 400,
+    "height": 400,
+    "bytes": 9892
+  },
+  {
+    "file": "product-pans-800.webp",
+    "width": 800,
+    "height": 800,
+    "bytes": 31486
+  },
+  {
+    "file": "venue-restaurant-640.webp",
+    "width": 640,
+    "height": 400,
+    "bytes": 57432
+  },
+  {
+    "file": "venue-restaurant-1200.webp",
+    "width": 1200,
+    "height": 750,
+    "bytes": 156268
+  },
+  {
+    "file": "venue-bakery-640.webp",
+    "width": 640,
+    "height": 400,
+    "bytes": 58038
+  },
+  {
+    "file": "venue-bakery-1200.webp",
+    "width": 1200,
+    "height": 750,
+    "bytes": 159006
+  },
+  {
+    "file": "venue-store-640.webp",
+    "width": 640,
+    "height": 400,
+    "bytes": 75322
+  },
+  {
+    "file": "venue-store-1200.webp",
+    "width": 1200,
+    "height": 750,
+    "bytes": 224154
+  },
+  {
+    "file": "planning-kitchen-640.webp",
+    "width": 640,
+    "height": 400,
+    "bytes": 51106
+  },
+  {
+    "file": "planning-kitchen-1200.webp",
+    "width": 1200,
+    "height": 750,
+    "bytes": 142358
+  },
+  {
+    "file": "worktop-steel-640.webp",
+    "width": 640,
+    "height": 400,
+    "bytes": 41132
+  },
+  {
+    "file": "worktop-steel-1200.webp",
+    "width": 1200,
+    "height": 750,
+    "bytes": 101668
+  }
+]

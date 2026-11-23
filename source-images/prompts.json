@@ -1,0 +1,86 @@
+{
+  "generator": "built-in image_gen",
+  "purpose": "Illustrative equipment and kitchen imagery for torgpit demo, not real products or completed client projects",
+  "assets": [
+    {
+      "key": "hero-kitchen",
+      "file": "hero-kitchen.png",
+      "prompt": "Use case: photorealistic-natural. Asset: premium commercial kitchen website hero background, landscape 2560x1440 pixels, high resolution. An immaculate architect-designed professional restaurant kitchen in brushed stainless steel, large industrial ventilation hood, beautiful commercial combi oven with glass door and warm golden trays ON THE RIGHT, a stainless prep island with a small basil plant and a few tomatoes at right foreground. Daylight from large windows mixed with warm pendant task lighting, realistic steel reflections, 35mm architectural photography, exceptionally sharp details. LEFT THIRD is a naturally dim uncluttered dark green-black kitchen wall and work area, calm negative space for white HTML headline. Counter heights and equipment geometry realistic. Restrained expensive editorial photography, subtle film texture, NOT glossy CGI. Entire composition one continuous scene. No humans, no branding, no text, no lettering, no watermarks. Do not make a webpage or collage. Landscape 16:9."
+    },
+    {
+      "key": "product-oven",
+      "file": "product-oven.png",
+      "prompt": "Use case: product-mockup. Standalone premium industrial product catalog photograph, square 1024x1024. One professional commercial 6-tray combi steam oven made of finely brushed stainless steel, black glass front door with visible clean stainless racks, tall narrow black touchscreen panel on left side of door (screen unlabelled, no legible text), sturdy short feet. Complete product visible, three-quarter front view facing slightly left, eye-level camera, centered with 12 percent whitespace all sides. Beautiful soft studio light, realistic subtle warm steel highlights and neutral dark glass, physically correct solid construction. Seamless PURE WHITE #ffffff background, soft compact grey contact shadow only. Exceptionally sharp premium catalog photo. No company logos, no branding, no words, no extra equipment, no props, no collage."
+    },
+    {
+      "key": "product-fridge",
+      "file": "product-fridge.png",
+      "prompt": "Use case: product-mockup. Standalone premium industrial product catalog photograph, square 1024x1024. One tall professional single-door stainless steel commercial refrigerator, solid finely brushed stainless front door with a long recessed vertical handle, compact dark temperature display in top fascia, strong small adjustable feet. Complete cabinet visible three-quarter front view facing slightly left, centered with 12 percent whitespace all sides. Soft studio lighting, subtly warm steel highlights, physically realistic metal construction, sharp realistic detail. Seamless PURE WHITE #ffffff background, only soft compact grey contact shadow. No brand logos, no lettering, no labels, no other objects, no collage."
+    },
+    {
+      "key": "product-mixer",
+      "file": "product-mixer.png",
+      "prompt": "Use case: product-mockup. Standalone premium industrial product catalog photograph, square 1024x1024. One professional commercial planetary mixer, brushed stainless steel heavy-duty body, 20 litre steel mixing bowl, metal safety cage above bowl, compact black control panel without readable lettering, industrial cast base. Complete machine visible, three-quarter front view facing slightly left, centered with 12 percent whitespace all sides. Exquisite soft studio lighting, finely detailed realistic stainless steel, restrained warm highlights, sharp product photo. Seamless PURE WHITE #ffffff background, soft compact grey contact shadow only. No branding, no words, no people, no other machines, no collage."
+    },
+    {
+      "key": "product-grinder",
+      "file": "product-grinder.png",
+      "prompt": "Use case: product-mockup. Asset: standalone premium industrial product catalog photograph. Square 1024x1024. One heavy-duty commercial meat grinder, brushed stainless steel rectangular motor body, large shallow steel hopper on top, horizontal grinding tube pointing left and round perforated grinding plate, two small red and green physical buttons on the side. Complete product fully visible, centered occupying 78 percent of frame with generous white margin, three-quarter front view facing slightly left, eye-level camera. Consistent luxury studio lighting with a large softbox, restrained warm reflections on finely brushed steel, physically plausible construction and sharp real material details. Seamless PURE WHITE #ffffff background, only soft compact grey contact shadow. Premium manufacturer catalog photography, NOT a drawing. No branding, no logos, no writing, no other objects except those described. No collage."
+    },
+    {
+      "key": "product-dough",
+      "file": "product-dough.png",
+      "prompt": "Use case: product-mockup. Asset: standalone premium industrial product catalog photograph. Square 1024x1024. One heavy-duty professional bakery spiral dough mixer, brushed stainless steel housing, large round steel bowl, robust hinged metal safety cage and spiral dough hook, solid low industrial body. Complete product fully visible, centered occupying 78 percent of frame with generous white margin, three-quarter front view facing slightly left, eye-level camera. Consistent luxury studio lighting with a large softbox, restrained warm reflections on finely brushed steel, physically plausible construction and sharp real material details. Seamless PURE WHITE #ffffff background, only soft compact grey contact shadow. Premium manufacturer catalog photography, NOT a drawing. No branding, no logos, no writing, no other objects except those described. No collage."
+    },
+    {
+      "key": "product-coffee",
+      "file": "product-coffee.png",
+      "prompt": "Use case: product-mockup. Asset: standalone premium industrial product catalog photograph. Square 1024x1024. One premium professional two-group espresso coffee machine, brushed stainless steel and restrained black side panels, two real portafilters attached, two steam wands, steel drip tray, four clean white espresso cups on warming tray. Complete product fully visible, centered occupying 78 percent of frame with generous white margin, three-quarter front view facing slightly left, eye-level camera. Consistent luxury studio lighting with a large softbox, restrained warm reflections on finely brushed steel, physically plausible construction and sharp real material details. Seamless PURE WHITE #ffffff background, only soft compact grey contact shadow. Premium manufacturer catalog photography, NOT a drawing. No branding, no logos, no writing, no other objects except those described. No collage."
+    },
+    {
+      "key": "product-dishwasher",
+      "file": "product-dishwasher.png",
+      "prompt": "Use case: product-mockup. Asset: standalone premium industrial product catalog photograph. Square 1024x1024. One professional commercial hood-type pass-through dishwasher made of brushed stainless steel, tall raised hood with sturdy side handle, rack with a few simple white plates visible below hood, four industrial legs. Complete product fully visible, centered occupying 78 percent of frame with generous white margin, three-quarter front view facing slightly left, eye-level camera. Consistent luxury studio lighting with a large softbox, restrained warm reflections on finely brushed steel, physically plausible construction and sharp real material details. Seamless PURE WHITE #ffffff background, only soft compact grey contact shadow. Premium manufacturer catalog photography, NOT a drawing. No branding, no logos, no writing, no other objects except those described. No collage."
+    },
+    {
+      "key": "product-steel",
+      "file": "product-steel.png",
+      "prompt": "Use case: product-mockup. Asset: standalone premium industrial product catalog photograph. Square 1024x1024. One professional stainless steel preparation table with a SINGLE rectangular integrated wash basin on the right, one industrial gooseneck tap, broad uninterrupted work surface on the left, open lower undershelf and four square adjustable legs. Complete product fully visible, centered occupying 78 percent of frame with generous white margin, three-quarter front view facing slightly left, eye-level camera. Consistent luxury studio lighting with a large softbox, restrained warm reflections on finely brushed steel, physically plausible construction and sharp real material details. Seamless PURE WHITE #ffffff background, only soft compact grey contact shadow. Premium manufacturer catalog photography, NOT a drawing. No branding, no logos, no writing, no other objects except those described. No collage."
+    },
+    {
+      "key": "product-display",
+      "file": "product-display.png",
+      "prompt": "Use case: product-mockup. Asset: standalone premium industrial product catalog photograph. Square 1024x1024. One professional refrigerated deli display cabinet, broad gently curved clear glass front, stainless steel lower cabinet and dark charcoal trim, neat shallow trays of fresh vegetables and simple deli foods inside. Complete product fully visible, centered occupying 78 percent of frame with generous white margin, three-quarter front view facing slightly left, eye-level camera. Consistent luxury studio lighting with a large softbox, restrained warm reflections on finely brushed steel, physically plausible construction and sharp real material details. Seamless PURE WHITE #ffffff background, only soft compact grey contact shadow. Premium manufacturer catalog photography, NOT a drawing. No branding, no logos, no writing, no other objects except those described. No collage."
+    },
+    {
+      "key": "product-pans",
+      "file": "product-pans.png",
+      "prompt": "Use case: product-mockup. Asset: standalone premium industrial product catalog photograph. Square 1024x1024. A carefully composed set of THREE stainless steel rectangular gastronorm pans in different standard sizes, one large pan behind two smaller pans, visible rounded rims and realistic brushed steel interiors. Complete product fully visible, centered occupying 78 percent of frame with generous white margin, three-quarter front view facing slightly left, eye-level camera. Consistent luxury studio lighting with a large softbox, restrained warm reflections on finely brushed steel, physically plausible construction and sharp real material details. Seamless PURE WHITE #ffffff background, only soft compact grey contact shadow. Premium manufacturer catalog photography, NOT a drawing. No branding, no logos, no writing, no other objects except those described. No collage."
+    },
+    {
+      "key": "venue-restaurant",
+      "file": "venue-restaurant.png",
+      "prompt": "Use case: photorealistic-natural. Asset: premium commercial kitchen equipment website editorial photograph, high-resolution landscape 1600x1000 pixels. Professional restaurant open kitchen, beautiful brushed stainless steel preparation islands, commercial combi oven and extraction hood, dark green-black accents, warm brass pendant task lighting, fresh basil. View into a realistic high-end working kitchen, no diners, no people, calm architecture, daylight and warm highlights. Composition leaves breathing room around important equipment, all machines geometrically plausible and real. Natural 35mm architectural photography, exquisite soft dynamic lighting, steel silver, charcoal green-black and restrained warm amber palette. Expensive but credible commercial architectural photography, detailed material surfaces, no glossy 3D render. NO text, NO logos, NO watermark, NO collage, one uninterrupted photographic scene."
+    },
+    {
+      "key": "venue-bakery",
+      "file": "venue-bakery.png",
+      "prompt": "Use case: photorealistic-natural. Asset: premium commercial kitchen equipment website editorial photograph, high-resolution landscape 1600x1000 pixels. A beautiful artisan commercial bakery workroom, stainless steel prep bench, trays of golden sourdough bread and croissants on a tall steel bakery rack, professional convection oven and spiral dough mixer, soft side daylight, warm flour-toned details and realistic brushed steel. Functional professional bakery, uncluttered, no people. Composition leaves breathing room around important equipment, all machines geometrically plausible and real. Natural 35mm architectural photography, exquisite soft dynamic lighting, steel silver, charcoal green-black and restrained warm amber palette. Expensive but credible commercial architectural photography, detailed material surfaces, no glossy 3D render. NO text, NO logos, NO watermark, NO collage, one uninterrupted photographic scene."
+    },
+    {
+      "key": "venue-store",
+      "file": "venue-store.png",
+      "prompt": "Use case: photorealistic-natural. Asset: premium commercial kitchen equipment website editorial photograph, high-resolution landscape 1600x1000 pixels. A refined small grocery deli interior: clean curved-glass refrigerated display case with vegetables and cheeses in the foreground, elegant glass-door commercial fridges with neatly arranged bottles along the back, dark green wall details, warm natural wood, inviting but practical lighting. No shoppers or staff, no visible brands, no readable price tags. Composition leaves breathing room around important equipment, all machines geometrically plausible and real. Natural 35mm architectural photography, exquisite soft dynamic lighting, steel silver, charcoal green-black and restrained warm amber palette. Expensive but credible commercial architectural photography, detailed material surfaces, no glossy 3D render. NO text, NO logos, NO watermark, NO collage, one uninterrupted photographic scene."
+    },
+    {
+      "key": "planning-kitchen",
+      "file": "planning-kitchen.png",
+      "prompt": "Use case: photorealistic-natural. Asset: premium commercial kitchen equipment website editorial photograph, high-resolution landscape 1600x1000 pixels. Close architectural editorial photograph looking down at a stainless steel worktable. A precise professional kitchen floor-plan printed on large white sheets, a charcoal tablet showing a realistic 3D isometric arrangement of stainless kitchen equipment without any UI text, a metal ruler and pencil, gentle side daylight, softly out-of-focus stainless kitchen in background. Plausible functional schematic without readable labels, no people. Composition leaves breathing room around important equipment, all machines geometrically plausible and real. Natural 35mm architectural photography, exquisite soft dynamic lighting, steel silver, charcoal green-black and restrained warm amber palette. Expensive but credible commercial architectural photography, detailed material surfaces, no glossy 3D render. NO text, NO logos, NO watermark, NO collage, one uninterrupted photographic scene."
+    },
+    {
+      "key": "worktop-steel",
+      "file": "worktop-steel.png",
+      "prompt": "Use case: photorealistic-natural. Asset: premium commercial kitchen equipment website editorial photograph, high-resolution landscape 1600x1000 pixels. Premium professional kitchen detail photograph: a long beautifully brushed stainless steel prep worktop with an integrated rectangular industrial sink and elegant heavy-duty gooseneck faucet, lower undershelf, a fresh basil plant on the far right and soft-focus steel shelving behind. Focus on impeccable brushed metal grain, precise welded edges, real softly reflected daylight, calm professional atmosphere. Close architectural detail, no people. Composition leaves breathing room around important equipment, all machines geometrically plausible and real. Natural 35mm architectural photography, exquisite soft dynamic lighting, steel silver, charcoal green-black and restrained warm amber palette. Expensive but credible commercial architectural photography, detailed material surfaces, no glossy 3D render. NO text, NO logos, NO watermark, NO collage, one uninterrupted photographic scene."
+    }
+  ]
+}
